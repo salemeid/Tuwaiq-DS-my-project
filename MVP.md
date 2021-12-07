@@ -1,8 +1,7 @@
 ## MVP
 
 #### Summary
-    
-    This is the initial findings in summary in my project. 
+This is the initial findings in summary in my project. 
 
 #### Findings 
 
