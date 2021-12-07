@@ -1,12 +1,12 @@
-## MVP
+# MVP
 
-#### Summary
+### 1.Summary
     
    This an initial commit regarding my findings and understanding during exploration of the chess dataset , The analysis is still at early stage. There is much work ahead. 
    
    **The main question remain the same as proposal:** which opening moves provides white a better change to win .
 
-#### Findings 
+### 2.Findings 
 
    * My first observation is that dependant column **(traget)** datapoints are imabalancned as per below figure.
    
@@ -17,7 +17,7 @@
    
    
 
-#### Conclusion and Future Direction
+### 3.Conclusion and Future Direction
    Starting with logistic regression as The base model, which scored around 67%. With the following scoring metrics: 
    
 |              |   precision |   recall |   f1-score |     support |
