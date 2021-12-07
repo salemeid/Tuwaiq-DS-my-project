@@ -1,8 +1,12 @@
 ## MVP
 
 #### Summary
+<<<<<<< HEAD
     
    This an initial commit regarding my findings and understanding during exploration of the chess dataset , The analysis is still at early stage. There is much work ahead. 
+=======
+This is the initial findings in summary in my project. 
+>>>>>>> 9ff98b0ffa432ff4fa7e62900de29354a2b3db96
 
 #### Findings 
 
