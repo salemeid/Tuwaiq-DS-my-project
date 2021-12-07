@@ -40,7 +40,7 @@
    It's hard to say that the model is an adequate fit without comparing it to other models for the time being. 
    <br>
    Moving on , I will run dataset on different models, at least 4 models. and summarize the finidings into a final report/presentation.
-   Before that I should dig deeper into feature selection and investigate and coorelations between the features and the target.
+   Before that I should dig deeper into feature selection and investigate any coorelations between the features and the target.
    <br>
    I would like to also resolve the imbalance issue by upsampling , undersampling or SMOTE. 
    <br>
