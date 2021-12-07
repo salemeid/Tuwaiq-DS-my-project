@@ -33,14 +33,17 @@
 
 
    The below confusion matrix shows a huge chunk of targets mis-predicted, the effect of imbalances and probably some scaling needs to be done.
+   <br>
    ![Confusion Matrix](conf_matrix.png)
    
    It's hard to say that the model is an adequate fit without comparing it to other models for the time being. 
+   <br>
    Moving on , I will run dataset on different models, at least 4 models. and summarize the finidings into a final report/presentation.
    Before that I should dig deeper into feature selection and investigate and coorelations between the features and the target.
+   <br>
    I would like to also resolve the imbalance issue by upsampling , undersampling or SMOTE. 
-   
-   I may explore the possiblitiy of utulizing the recommendation system to recommend a next best move.
+   <br>
+   Optional: I may explore the possiblitiy of utulizing the recommendation system to recommend a next best move.
    
    
 
