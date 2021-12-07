@@ -19,6 +19,7 @@
 
 ### 3.Conclusion and Future Direction
    Starting with logistic regression as The base model, which scored around 67%. With the following scoring metrics: 
+   <br>
    
 |              |   precision |   recall |   f1-score |     support |
 |:-------------|------------:|---------:|-----------:|------------:|
