@@ -44,4 +44,7 @@ My main score mertics was accuracy and f1 score , i have also decided to plot co
 
 
 ## Communication
-A powerpoint presentation maybe found [here]  
+A powerpoint presentation maybe found [here](My_presentation_chess.pptx)
+
+From analysis results we should concetrate more on how to defend against "Sicilian Defence" as per below chart:
+![Opening Moves](https://github.com/salemeid/Tuwaiq-DS-my-project/blob/main/output/Number_of_win_by_om.png)
