@@ -29,7 +29,7 @@ Due the imporatnce of the project i have decided to apply most of the models tha
 
 The dataset of 20,000 rows was split into 80% test and 20% test , the cleaned dataset were dummified into 137 feaures up from 17 features. to resolve imbalance issue between targets i utulized imblance library using SMOTE to create virtual datapoints. Due to the variations in value between feautres , i have decided also to scale the dataset, this would be usful when handling distance alghorithims such as KNN.
 
-My main score mertics was accuracy and f1 score , i have also decided to plot confusion matrix for each model to show the prediction rates clearly. The XGBoost model scored the best results. Later ran a GridSearchCV to improve the results,unfortunately, the initial prediction hyperparameters were better. 
+My main score mertics was accuracy and f1 score , i have also decided to plot confusion matrix for each model to show the prediction rates clearly. The XGBoost model scored the best results. Later on, I tried to run a GridSearchCV to improve the results,unfortunately, Due to resources limitation the initial prediction hyperparameters were better. 
 
 **Best Result for XGBoost:** 137 features 
    - Accuracy 0.875
@@ -44,7 +44,17 @@ My main score mertics was accuracy and f1 score , i have also decided to plot co
 
 
 ## Communication
-A powerpoint presentation maybe found [here](My_presentation_chess.pptx)
+A powerpoint presentation maybe found [here](https://github.com/salemeid/Tuwaiq-DS-my-project/blob/main/My_presentation_chess.pdf)
 
 From analysis results we should concetrate more on how to defend against "Sicilian Defence" as per below chart:
 ![Opening Moves](https://github.com/salemeid/Tuwaiq-DS-my-project/blob/main/output/Number_of_win_by_om.png)
+
+As per below table we will use the most accurate model : 
+
+|    | Models              |   Accuracy Score |   F1 Score |
+|---:|:--------------------|-----------------:|-----------:|
+|  0 | Logistic Regression |         0.665053 |   0.664628 |
+|  1 | Random Forest       |         0.67244  |   0.672021 |
+|  2 | XGBoost             |         0.875191 |   0.875144 |
+|  3 | SVM                 |         0.643148 |   0.642504 |
+|  4 | KNN                 |         0.625064 |   0.624595 |
